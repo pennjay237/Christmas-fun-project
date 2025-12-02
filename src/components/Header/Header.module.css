@@ -1,0 +1,24 @@
+.header {
+background: linear-gradient(#d70000, #8b0000);
+padding: 20px;
+text-align: center;
+}
+
+.title {
+color: white;
+font-size: 2.3rem;
+text-shadow: 0 0 8px gold;
+margin-bottom: 10px;
+}
+
+.nav a {
+color: white;
+margin: 0 12px;
+font-size: 1.1rem;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.nav a:hover {
+color: gold;
+}
