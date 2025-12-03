@@ -20,7 +20,8 @@ return ( <Router> <div className={styles.app}> <Header />
     </main>
 
     <Footer />
-  </div>
+  </div>￼
+
 </Router>
 
 );
