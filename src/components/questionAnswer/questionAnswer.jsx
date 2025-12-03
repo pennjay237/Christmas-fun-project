@@ -49,7 +49,7 @@ setVisibleAnswers((prev) => ({ ...prev, [index]: !prev[index] }));
 };
 
 return ( <div className={styles.container}> <h2 className={styles.heading}>Frequently Asked Questions About Christmas</h2>
-  <p className={styles.introParagraph}>Click on the drop down bellow to see frequently asked questions about Christmas.</p>
+  <p className={styles.introParagraph}>Click on the select a category drop down bellow and choose a category to know about Christmas.</p>
   <select onChange={handleCategoryChange} value={selectedCategory} className={styles.select}>
     <option value="">Select a category</option>
     {Object.keys(categories).map((cat, idx) => (

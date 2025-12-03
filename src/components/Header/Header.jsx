@@ -7,7 +7,7 @@ export default function Header() {
       <h1 className={styles.title}>🎄 Christmas Wonderland 🎅</h1>
       <nav className={styles.nav}>
         <Link to="/">Home</Link>
-        <Link to="/about">About Christmas</Link>
+        <Link to="/about">About This App</Link>
         <Link to="/gifts">Gifts</Link>
       </nav>
     </header>
