@@ -49,3 +49,20 @@
   background-color: #4b8b4b;
   color: #fff;
 }
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.light footer {
+  background-color: #fffaf0;
+  color: #333; 
+}
+
+.dark footer {
+  background-color: #0b2b0b;
+  color: #f0e68c; 
+}
