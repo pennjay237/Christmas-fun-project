@@ -1,11 +1,51 @@
 .app {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-background: linear-gradient(#fff6f6, #ffecec);
+  transition: all 0.3s ease;
+  min-height: 100vh;
 }
 
-.main {
-flex: 1;
-padding: 20px;
+
+.light {
+  background-color: #fffaf0; 
+  color: #333;
+}
+
+.light a {
+  color: #d70000;
+}
+
+.light header,
+.light main,
+.light footer,
+.light .quoteBox,
+.light .christmasCard {
+  background-color: #fffaf0; 
+  color: #333;
+}
+
+.dark {
+  background-color: #0b2b0b; 
+  color: #f0e68c;
+}
+
+.dark a {
+  color: #ffe066;
+}
+
+.dark header,
+.dark main,
+.dark footer,
+.dark .quoteBox,
+.dark .christmasCard {
+  background-color: #0b2b0b;
+  color: #f0e68c;
+}
+
+.light button {
+  background-color: #d70000;
+  color: #fff;
+}
+
+.dark button {
+  background-color: #4b8b4b;
+  color: #fff;
 }

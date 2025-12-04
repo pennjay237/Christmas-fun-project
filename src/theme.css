@@ -1,0 +1,19 @@
+.light-theme {
+  --bg-color: #ffffff;
+  --text-color: #222;
+  --card-bg: #fff8f8;
+  --accent: #d70000;
+}
+
+.dark-theme {
+  --bg-color: #0a1a12;
+  --text-color: #f6f6f6;
+  --card-bg: #1a2d22;
+  --accent: #ffdd66;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.3s ease;
+}
