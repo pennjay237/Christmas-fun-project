@@ -1,9 +1,17 @@
 .footer {
-text-align: center;
-padding: 20px;
-margin-top: 40px;
-color: white;
-background: #8b0000;
-font-size: 1rem;
-border-top: 3px solid gold;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: white;
+  background: #8b0000;
+  font-size: 1rem;
+  border-top: 3px solid gold;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 14px;
+    font-size: 0.9rem;
+    margin-top: 25px;
+  }
 }

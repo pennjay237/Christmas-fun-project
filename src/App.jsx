@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { ThemeContext } from "./context/ThemeContext";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import SnowEffect from "./components/Snowfall/Snowfall"; // ⬅️ added
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -13,6 +14,9 @@ export default function App() {
 
   return (
     <div className={`${styles.app} ${theme === "dark" ? styles.dark : styles.light}`}>
+      
+      <SnowEffect />
+
       <Router>
         <Header />
         <main className={styles.main}>

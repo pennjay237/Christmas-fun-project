@@ -1,61 +1,99 @@
-styling                        .container {
-margin: 20px auto;
-max-width: 700px;
-background: #f7f7f7;
-padding: 20px;
-border-radius: 12px;
-box-shadow: 0 0 12px rgba(0,0,0,0.15);
+.container {
+  margin: 20px auto;
+  max-width: 700px;
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
 }
 
 .heading {
-text-align: center;
-font-size: 1.8rem;
-margin-bottom: 16px;
-color: #d70000;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #d70000;
 }
 
 .select {
-width: 100%;
-padding: 10px;
-font-size: 1rem;
-margin-bottom: 20px;
-border-radius: 6px;
-border: 1px solid #ccc;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
 .questions {
-display: flex;
-flex-direction: column;
-gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .qnaItem {
-background: white;
-padding: 12px 16px;
-border-radius: 8px;
-box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  background: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
 .question {
-font-weight: bold;
-margin-bottom: 6px;
+  font-weight: bold;
+  margin-bottom: 6px;
 }
 
 .button {
-margin-left: 10px;
-background: #d70000;
-color: white;
-border: none;
-padding: 6px 12px;
-border-radius: 6px;
-cursor: pointer;
+  margin-left: 10px;
+  background: #d70000;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .button:hover {
-background: #b30000;
+  background: #b30000;
 }
 
 .answer {
-margin-top: 8px;
-color: #333;
+  margin-top: 8px;
+  color: #333;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 14px;
+    margin: 15px auto;
+    max-width: 95%;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+
+  .select {
+    padding: 8px;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+  }
+
+  .qnaItem {
+    padding: 10px 12px;
+  }
+
+  .question {
+    font-size: 1rem;
+  }
+
+  .button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    margin-left: 0;
+    margin-top: 6px;
+  }
+
+  .answer {
+    font-size: 0.9rem;
+  }
 }

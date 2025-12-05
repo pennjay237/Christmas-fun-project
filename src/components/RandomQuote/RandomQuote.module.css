@@ -1,35 +1,58 @@
 .quoteBox {
-background: white;
-padding: 20px;
-margin: 20px auto;
-max-width: 400px;
-border-radius: 10px;
-box-shadow: 0 0 10px rgba(0,0,0,0.2);
-text-align: center;
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
 }
 
 .text {
-font-size: 1.2rem;
-color: #333;
-margin-bottom: 8px;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 8px;
 }
 
 .author {
-font-size: 1rem;
-color: #666;
-margin-bottom: 16px;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 16px;
 }
 
 .button {
-background: #d70000;
-color: white;
-border: none;
-padding: 10px 16px;
-border-radius: 8px;
-cursor: pointer;
-transition: background 0.3s;
+  background: #d70000;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
 .button:hover {
-background: #b30000;
+  background: #b30000;
+}
+
+@media (max-width: 480px) {
+  .quoteBox {
+    padding: 14px;
+    margin: 15px auto;
+    max-width: 90%;
+  }
+
+  .text {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+
+  .author {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+
+  .button {
+    padding: 8px 14px;
+    font-size: 0.95rem;
+  }
 }

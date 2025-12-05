@@ -1,20 +1,4 @@
 .container {
-padding: 40px;
-max-width: 700px;
-margin: auto;
-text-align: center;
-}
-
-h2 {
-color: #d70000;
-font-size: 2rem;
-}
-
-p {
-font-size: 1.2rem;
-color: #333;
-}
-.container {
   padding: 50px 30px;
   max-width: 800px;
   margin: auto;
@@ -57,5 +41,29 @@ color: #333;
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 30px 15px;
+    max-width: 95%;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    margin-bottom: 18px;
+  }
+
+  .text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    padding: 0 5px;
+  }
+
+  .text code {
+    font-size: 0.85rem;
+    padding: 2px 4px;
   }
 }

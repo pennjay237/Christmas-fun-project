@@ -10,7 +10,7 @@
 }
 
 .light a {
-  color: #d70000;
+  color: #e2dddd;
 }
 
 .light header,
@@ -24,11 +24,11 @@
 
 .dark {
   background-color: #0b2b0b; 
-  color: #f0e68c;
+  color: #000000;
 }
 
 .dark a {
-  color: #ffe066;
+  color: #000000;
 }
 
 .dark header,
@@ -37,7 +37,7 @@
 .dark .quoteBox,
 .dark .christmasCard {
   background-color: #0b2b0b;
-  color: #f0e68c;
+  color: #000000;
 }
 
 .light button {
@@ -64,5 +64,5 @@ footer {
 
 .dark footer {
   background-color: #0b2b0b;
-  color: #f0e68c; 
+  color: #ffffff; 
 }
